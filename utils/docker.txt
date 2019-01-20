@@ -1,0 +1,9 @@
+# Start MYSQL
+docker run --name PaymentHub1 -p 3306:3306 \
+-e MYSQL_ROOT_PASSWORD=admin123 \
+-e MYSQL_DATABASE=PHUB \
+-e MYSQL_USER=neto \
+-e MYSQL_PASSWORD=neto123 \
+-d mysql
+
+docker start PaymentHub1
