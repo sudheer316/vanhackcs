@@ -10,7 +10,7 @@ import javax.persistence.Persistence;
  */
 public class JPAUtil {
 
-	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("phub");
+	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("miniurl");
 	
 	public EntityManager getEntityManager(){
 		return emf.createEntityManager();

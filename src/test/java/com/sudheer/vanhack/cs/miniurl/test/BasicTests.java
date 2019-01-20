@@ -18,7 +18,7 @@ public class BasicTests {
 		System.out.println("Cleaning previous tests...");
 		// clean accounts
 		UrlMapDAO urlMapDAO = new UrlMapDAO();
-		UrlMap urlMap  = urlMapDAO.findByID("ACC001");
+		UrlMap urlMap  = urlMapDAO.findByID("[B@8b99874");
 		urlMapDAO.delete(urlMap);
 		
 		System.out.println("End of cleaning previous tests...");
@@ -32,12 +32,12 @@ public class BasicTests {
 		// create customer
 				// create accounts
 		UrlMap urlMap1 = UrlMapBuilder.buildAccount();
-		urlMap1.setShotrurl("ACC001");
+		urlMap1.setShotrurl("[B@8b99874");
 		urlMap1.setFullurl("http://google.com");
 		
 		UrlMap urlMap2 = UrlMapBuilder.buildAccount();
-		urlMap2.setShotrurl("ACC002");
-		urlMap2.setFullurl("http://google.com/2");
+		urlMap2.setShotrurl("[B@5dd80c14");
+		urlMap2.setFullurl("http://yahoo.com/");
 		
 		// persist
 		UrlMapDAO urlMapDAO = new UrlMapDAO();
