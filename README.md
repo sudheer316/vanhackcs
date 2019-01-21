@@ -75,7 +75,8 @@ Softwares needed
 2.	Importing the code . 
 Unzip the MIniURLServices.zip into a folder of your choice. Use the import wizard in the IDE to get the code . Use a Maven Project to import.
 3.	Building the code :  Use the Maven build, Ex: in Eclipse go to project (right click) select Maven and update the maven , to save time set Build automatically .
-
+              MySQL server 8, default user is root and password is admin123
+	      
 4.	Testing 
 Application can be run as simple java application , the default port it uses is 4567
 Use in the browser : http://localhost:4567/hello 
